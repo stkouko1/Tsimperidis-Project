@@ -14,6 +14,7 @@ echo "They do good work";
 
 <body>
     <br>
+    <h2>EFE</h2>
     <h1>Hello Nigger san</h1>
     <h2>hello s</h2>
     <img src="Images/Scratch_ship_Game.png" alt="">

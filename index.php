@@ -21,7 +21,6 @@ echo "They do good work";
     <h1>Hello Nigger san</h1>
     <h2>hello s</h2>
     <h3>hewllo</h3>
-    <p>dada</p>
     <img src="Images/Scratch_ship_Game.png" alt="">
 
 </body>

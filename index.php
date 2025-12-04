@@ -15,6 +15,7 @@ echo "They do good work";
 <body>
     <br>
     <h2>EFE</h2>
+    <input type="email">
     <input type="password">
     <h1>Hello Nigger san</h1>
     <h2>hello s</h2>

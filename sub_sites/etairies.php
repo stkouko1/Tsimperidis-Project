@@ -25,33 +25,13 @@ error_reporting(E_ALL);
     <button onclick="history.back()">Back</button>
 
     <div>
-        <h2>Λίστα Εταιριών</h2>
+        <h1>Λίστα Εταιριών</h1>
+        <div id="filterPanel" class="filter-panel">
+            <div class="panel-header">
+                <?php filter('Etairia'); ?>
+            </div>
 
-        <?php
-        $rows = select("*", "Etairia");
-        ?>
-
-        <?php if (!empty($rows)): ?>
-            <table border="1" cellpadding="5" cellspacing="0">
-                <tr>
-                    <?php foreach (array_keys($rows[0]) as $col_name): ?>
-                        <th><?= htmlspecialchars($col_name) ?></th>
-                    <?php endforeach; ?>
-                </tr>
-
-                <?php foreach ($rows as $row): ?>
-                    <tr>
-                        <?php foreach ($row as $cell): ?>
-                            <td><?= htmlspecialchars($cell) ?></td>
-                        <?php endforeach; ?>
-                    </tr>
-                <?php endforeach; ?>
-            </table>
-        <?php else: ?>
-            <p>No records found.</p>
-        <?php endif; ?>
-
-        <button style="float: right;">Filter</button>
+            <div class="panel-content"></div>
     </div>
 </body>
 
